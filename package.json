@@ -1,0 +1,29 @@
+{
+  "name": "serial-to-rest",
+  "version": "1.0.0",
+  "description": "Dockerised serial port to rest API translator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersanyamarya/serial-to-rest.git"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "serialport": "^9.0.4"
+  },
+  "keywords": [
+    "serial",
+    "nodejs",
+    "rest"
+  ],
+  "author": "ersanyamarya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ersanyamarya/serial-to-rest/issues"
+  },
+  "homepage": "https://github.com/ersanyamarya/serial-to-rest#readme"
+}
